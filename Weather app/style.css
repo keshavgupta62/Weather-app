@@ -4,9 +4,7 @@
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: url('nature.jpg');
-    background-size: cover;
-    /* background: linear-gradient(90deg, #fc9696, rgb(204, 5, 5)); */
+    background: linear-gradient(90deg, #afafaf, rgb(97, 97, 97));
 }
 .input {
     text-align: center;
@@ -25,16 +23,6 @@ input[type="text"] {
     border: none;
     border-bottom: 5px solid rgb(255, 196, 0);
 }
-input[type="submit"] {
-    height: 43px;
-    width: 70px;
-    background: #e7e7e7;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 10px;
-    border: 1px solid grey;
-}
 .display {
     color: white;
     font-size: 20px;
@@ -47,8 +35,7 @@ input[type="submit"] {
     font-style: italic;
 }
 .desc {
-    font-size: 30px;
-    font-style: italic;
+    font-size: 25px;
 }
 .temp, .minMax, .wind {
     font-size: 25px;
